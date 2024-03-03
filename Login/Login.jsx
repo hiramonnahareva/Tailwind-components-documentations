@@ -1,5 +1,5 @@
-import img from './assets/cover.jpg'
-import google from './assets/google.png'
+import img from './cover.jpg'
+import google from './google.png'
 
 
 const Login = () => {
