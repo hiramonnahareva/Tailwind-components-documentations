@@ -19,9 +19,7 @@ const Sidebar = () => {
           navItem.map((item) => (<li className="flex items-center gap-x-2 transition-all duration-300" key={item.id}><span title={item.title}>{item.icon}</span>{!click && item.title}</li>))
         }
       </ul>
-  
       </div>
-      
       <button onClick={() => setClick(!click)} className={`bg-white shadow-lg rounded-full p-2 ms-[-20px] mt-4 transition-all duration-300 ${click && 'transform rotate-180'}`}>
         <IoIosArrowRoundForward/>
         </button>
