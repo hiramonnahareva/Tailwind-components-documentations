@@ -23,7 +23,6 @@ const Sidebar = () => {
       <button onClick={() => setClick(!click)} className={`bg-white shadow-lg rounded-full p-2 ms-[-20px] mt-4 transition-all duration-300 ${click && 'transform rotate-180'}`}>
         <IoIosArrowRoundForward/>
         </button>
-      
     </div>
   );
 };
